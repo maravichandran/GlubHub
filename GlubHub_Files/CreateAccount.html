@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>GlubHub - Create Account</title>
+
+<link rel="stylesheet" type="text/css" href="GlubHub_Stylesheet.css"> <!--reference to the css stylesheet-->
+<script src="Slogans.js"></script> <!--references the slogan js which prints random fish puns-->
+
+</head>
+
+<body>
+
+<!--Creates the banner-->
+<div class="title_block">
+<img src="http://www.megaicons.net/static/img/icons_sizes/8/178/256/animals-fish-icon.png"/>	
+<h1>Glub<span style="color:#e33809">Hub</span></h1>
+</div>
+<div class="slogan_block" style="background-color:#f1857e"> <!--Calls the slogan which doesn't function-->
+	<h2 id="slogan">O-FISH-al fisherman network</h2>
+</div>
+
+<!--Establishing navigation bar with a list and corresponding links.-->
+<!--The current page's tab is placed under the "active" class-->
+<ul class="navbar">
+	<li><a href="Search.php">SEARCH</a></li>
+	<li><a href="Upload.html">UPLOAD</a></li>
+	<li><a href="Login.html">LOGIN</a></li>
+	<li><a href="CreateAccount.html" class="active">CREATE ACCOUNT</a></li>
+</ul>
+
+<!--User can input username, password, confirm password, e-mail. first name, and last name-->
+<div class="center_div">
+<form>
+	<h2>Create an Account</h2>
+		<p>Username</p>
+		<input type="text" name="username"><br>
+		<p>Password</p>
+		<input type="password" name="password"><br>
+		<p>Confirm Password</p>
+		<input type="password" name="confirm_pw"><br>
+		<p>E-mail</p>
+		<input type="text" name="email"><br>
+		<p>First Name</p>
+		<input type="text" name="firstname"><br>
+		<p>Last Name</p>
+		<input type="text" name="lastname"><br>
+		<br>
+	<!--Create account button which does not function-->
+	<button>CREATE ACCOUNT</button>
+</form>
+
+</body>
+</html>

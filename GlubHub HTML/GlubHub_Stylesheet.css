@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "ALBAS";
+    src: url(ALBAS___.ttf) format("truetype");
+}	
+
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(CaviarDreams.ttf) format("truetype");
+}
+body{
+	background-color:#b9ede6;
+	margin:0px;
+	padding:0px;
+}
+
+/*Style for entire title bar. Uses CS3 transition to animate on hover with ease timing*/
+.slogan_block {
+	background: linear-gradient(#087569,#087569);
+	text-align:center;
+	width:100%;
+	margin:0px;
+	color:#f7f7ff;
+}
+
+/*Style for entire title bar. Uses CS3 transition to animate on hover with ease timing*/
+.title_block {
+	background: linear-gradient(#b9ede6,#6dc9b8);
+	text-align:center;
+	width:100%;
+	font-size:50px;
+	margin:0px;
+}
+
+/*links don't have text decoration (annoying coloration and underlining)*/
+a, a:visited {
+	text-decoration:none;
+}
+
+/*Styling for text in the title bar*/
+h1 {
+	color:#f76234;
+	font-family:"ALBAS";
+	display:inline-block;
+	vertical-align:middle;
+}
+
+/*Paragraph styling common to all pages*/
+p {
+	color:#f76234;
+	font-family:"Caviar Dreams";
+	font-size: 30px;
+	display:inline-block;
+}
+
+/*Style for entire navbar that spans page*/
+.navbar {
+	list-style-type:none;
+    padding: 0px;
+	margin: 0px;
+    background-color: #6dc9b8;
+    width: 100%;
+	overflow:hidden;
+	box-shadow: 5px 5px 15px #669988;
+}
+
+/*Style for each tab in navbar. Uses CS3 transition for animation on hover with ease timing*/
+li a {
+   	color: #087569;
+    text-align: center;
+    width:20%;
+    padding:20px;
+    margin: auto;
+    text-decoration: none;
+    font-family:"Caviar Dreams";
+    font-size:25px;
+	float:left;
+	transition: background-color .25s, color .25s;
+	transition-timing-function: cubic-bezier(0,0,1,1);
+}
+
+/*Animations for tabs in navbar that are not active on hover*/
+li a:hover:not(.active) { 
+	background-color: #f7f7ff;
+	color:#e33809;
+	border-bottom: 5px solid #f76234;
+}
+
+/*Style for active tab in navbar*/
+.active {
+    background-color: #f7f7ff;
+    color:#e33809;
+}
+
+/*Style for moozic logo*/
+.title_block img {
+   	height: 100px;
+   	display:inline-block;
+	border-radius:100%;
+	vertical-align:middle;
+}
+
+.search_form{
+	float:left;
+	padding:15px;
+	margin:0px;
+	width:400px;
+	background-color:#f7f7ff;
+	color:#e33809;
+	border-top: 2px solid #f76234;
+	box-shadow: 5px 5px 15px #669988;
+	text-align:center;
+}
+
+.search_form p{
+	color:#e33809;
+	margin:0px;
+	padding:0px;
+}
+
+.search_form input{
+	margin:0px;
+	padding:0px;
+}
+
+.search_form select, .search_form input{
+	width:80%;
+}
+/*Style for unopened select menu. Uses CS3 transition to animate on hover with ease timing*/
+select{
+	background-color:#6dc9b8;
+	color: #087569;
+	font-family: "Caviar Dreams";
+	width:60%;
+	font-size:30px;
+	margin-bottom: 10px;
+	padding:0px;
+}
+
+/*Style for options in selection menus*/
+option{
+	background-color:#f7f7ff;
+	color:#e33809;
+	font-family:"Caviar Dreams";
+	display:block;
+	font-size:30px;
+	border: 1px #212626;
+}
+
+/*Style for generate song button. Uses CS3 transition to animate on hover with ease timing*/
+button{
+	background-color:#6dc9b8;
+	color: #087569;
+	margin:auto;
+	padding: 15px;
+	font-size: 30px;
+	border:none;
+	font-family: "Caviar Dreams";
+	transition: background-color 0.25s, box-shadow 0.25s;
+	transition-timing-function: cubic-bezier(0,0,1,1);
+}
+
+/*Generate song button gets darker and develops shadow when hovered over*/
+button:hover {
+	background-color:#f7f7ff;
+	color:#e33809;
+	box-shadow: 5px 5px 15px #888888;
+}
+
+/*Header 2 styling common to all pages*/
+h2 {
+	font-family: "Caviar Dreams";
+	font-size: 50px;
+	text-align: center;
+	display:block;
+	margin:0px;
+	padding:5px;
+}
+
+input {
+	background-color:#f7f7ff;
+	color:#087569;
+	font-family:"Caviar Dreams";
+	font-size:25px;
+	width: 60%;
+}
+
+.results{
+	color:#f76234;
+	margin:0px;
+	padding:15px;
+}
+
+.center_div {
+	margin:auto;
+	margin-top:70px;
+	margin-bottom:70px;
+	width:700px;
+	background-color:#f7f7ff;
+	color:#e33809;
+	box-shadow: 5px 5px 15px #669988;
+	text-align:center;
+	padding:50px;
+}

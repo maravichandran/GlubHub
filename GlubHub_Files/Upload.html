@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>GlubHub - Upload</title>
+
+<link rel="stylesheet" type="text/css" href="GlubHub_Stylesheet.css"> <!--reference to the css stylesheet-->
+<script src="Slogans.js"></script> <!--references the slogan js which prints random fish puns-->
+
+</head>
+
+<body>
+
+<!--Creates the banner-->
+<div class="title_block">
+<img src="http://www.megaicons.net/static/img/icons_sizes/8/178/256/animals-fish-icon.png"/>	
+<h1>Glub<span style="color:#e33809">Hub</span></h1>
+</div>
+<div class="slogan_block" style="background-color:#f1857e"> <!--Calls the slogan which doesn't function-->
+	<h2 id="slogan">O-FISH-al fisherman network</h2>
+</div>
+
+<!--Establishing navigation bar with a list and corresponding links.-->
+<!--The current page's tab is placed under the "active" class-->
+<ul class="navbar">
+	<li><a href="Search.php">SEARCH</a></li>
+	<li><a href="Upload.html" class="active">UPLOAD</a></li>
+	<li><a href="Login.html">LOGIN</a></li>
+	<li><a href="CreateAccount.html">CREATE ACCOUNT</a></li>
+</ul>
+
+<div class="center_div">
+<form>
+	<h2>Upload a Catch</h2>
+		<p>Picture</p>
+			<button>Choose File</button> <!--Buttons do not function-->
+			<button>Upload</button><br>
+			<br>
+		<!--User input for weight, length, and common name.-->	
+		<p>Weight</p>
+			<input type="number" name="weight"><p>lbs.</p><br> 
+		<p>Length</p>
+			<input type="number" name="length"><p>in.</p><br>
+		<p>Common Name</p>
+		<input type="text" name="fishname"><br>
+		<!--Drop-down menu for location and color-->
+		<p>Location</p>
+			<select name="length">
+			<option value="all" selected>All</option>
+			  <option value="bergen" >Bergen County, NJ</option>
+			  <option value="essex">Essex County, NJ</option>
+			  <option value="middlesex">Middlesex, NJ</option>
+			  <option value="monmouth">Monmouth, NJ</option>
+			  <option value="hudson">Hudson County, NJ</option>
+			  <option value="ocean">Ocean County, NJ</option>
+			  <option value="union">Union County, NJ</option>
+			  <option value="camden">Camden County, NJ</option>
+			  <option value="passaic">Passaic County, NJ</option>
+			  <option value="morris">Morris County, NJ</option>
+			  <option value="burlington">Burlington County, NJ</option>
+			  <option value="mercer">Mercer County, NJ</option>
+			  <option value="somerset">Somerset County, NJ</option>
+			  <option value="gloucester">Gloucester County, NJ</option>
+			  <option value="atlantic">Atlantic County, NJ</option>
+			  <option value="sussex">Sussex County, NJ</option>
+			  <option value="cumberland">Cumberland County, NJ</option>
+			  <option value="hunterdon">Hunterdon County, NJ</option>
+			  <option value="warren">Warren County, NJ</option>
+			  <option value="cape may">Cape May County, NJ</option>
+			  <option value="salem">Salem County, NJ</option>
+			  <option value="gulf of mexico">Gulf of Mexico</option>
+			</select><br>
+		<p>Color</p>
+			<select name="length">
+			<option value="all" selected>All</option>
+			  <option value="red">Red</option>
+			  <option value="orange">Orange</option>
+			  <option value="yellow">Yellow</option>
+			  <option value="green">Green</option>
+			  <option value="blue">Blue</option>
+			  <option value="purple">Purple</option>
+			  <option value="pink">Pink</option>
+			  <option value="black">Black</option>
+			  <option value="brown">Brown</option>
+			  <option value="grey">Grey</option>
+			  <option value="white">White</option>
+			  <option value="silver">Silver</option>
+			  <option value="gold">Gold</option>
+			</select><br>
+	<!--Upload functionality can be inserted here-->		
+	<button>UPLOAD</button> 
+</form>
+</div>
+
+</body>
+</html>
