@@ -6,4 +6,4 @@
 
 * The user can search for fish caught by various characteristics (weight, species, etc.)
 
-* Uses private PLTW server so the website is not fully set up in its current state in the repository
+* Uses private server so the website is not fully set up in its current state in the repository
